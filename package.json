@@ -2,18 +2,18 @@
   "name": "cylon-powerup",
   "version": "0.1.0",
   "main": "lib/cylon-powerup.js",
-  "description": "Cylon module for Powerup",
+  "description": "Cylon module for the Powerup 3.0",
   "homepage": "http://cylonjs.com",
-  "bugs": "Your bug report URL here",
+  "bugs": "https://github.com/hybridgroup/cylon-powerup/issues",
 
-  "author": "Your Name Here <your@email.here> (your.url.here)",
+  "author": "The Hybrid Group <cylonjs@hybridgroup.com>",
 
   "repository": {
     "type": "git",
-    "url": "your git URL here"
+    "url": "https://github.com/hybridgroup/cylon-powerup"
   },
 
-  "license": "your license type here",
+  "license": "Apache 2.0",
 
   "devDependencies": {
     "sinon-chai": "2.5.0",
@@ -24,10 +24,11 @@
   },
 
   "peerDependencies": {
-    "cylon": ">=0.18.0 < 1"
+    "cylon": ">=0.19.0 < 1"
   },
 
   "dependencies": {
-    "cylon": "~0.18.0"
+    "cylon": "~0.19.0",
+    "cylon-ble": "git://github.com/hybridgroup/cylon-ble.git"
   }
 }
