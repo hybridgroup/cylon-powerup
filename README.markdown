@@ -1,9 +1,8 @@
 # Cylon.js For Powerup
 
-Cylon.js (http://cylonjs.com) is a JavaScript framework for robotics and
-physical computing using Node.js
+Cylon.js (http://cylonjs.com) is a JavaScript framework for robotics, physical computing, and the Internet of Things using Node.js
 
-This repository contains the Cylon driver for the [Powerup 3.0](http://www.poweruptoys.com/products/powerup-v3) BLE powered paper airplane.
+This repository contains the Cylon driver for the [Powerup 3.0](http://www.poweruptoys.com/products/powerup-v3) Bluetooth LE controlled paper airplane.
 
 For more information about Cylon, check out the repo at
 https://github.com/hybridgroup/cylon
