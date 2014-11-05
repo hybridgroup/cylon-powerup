@@ -2,26 +2,19 @@
 
 var module = source("cylon-powerup");
 
-var Adaptor = source('adaptor'),
-    Driver = source('driver');
+var Driver = source('driver');
 
 describe("Cylon.Powerup", function() {
-  describe("#register", function() {
-    it("should be a function", function() {
-      expect(module.register).to.be.a('function');
+  describe("#drivers", function() {
+    it("is an array of provided drivers", function() {
+      expect(module.drivers).to.be.eql(["powerup"])
     });
   });
 
   describe("#driver", function() {
     it("returns an instance of the Driver", function() {
-      var args = { device: {} };
+      var args = { device: { connection: {} } };
       expect(module.driver(args)).to.be.instanceOf(Driver);
-    });
-  });
-
-  describe("#adaptor", function() {
-    it("returns an instance of the Adaptor", function() {
-      expect(module.adaptor()).to.be.instanceOf(Adaptor);
     });
   });
 });
