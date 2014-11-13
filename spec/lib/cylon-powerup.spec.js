@@ -13,7 +13,7 @@ describe("Cylon.Powerup", function() {
 
   describe("#driver", function() {
     it("returns an instance of the Driver", function() {
-      var args = { device: { connection: {} } };
+      var args = { adaptor: {} };
       expect(module.driver(args)).to.be.instanceOf(Driver);
     });
   });
