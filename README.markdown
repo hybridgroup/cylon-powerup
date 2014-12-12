@@ -17,14 +17,16 @@ Here's an example of flying the powerup with a dualshock3 controller
 var Cylon = require('cylon');
 
 Cylon.robot({
-  connections: [
-    { name: 'bluetooth', adaptor: 'ble', uuid: '84dd20eb3d89' },
-    { name: 'dualshock3', adaptor: 'joystick' }
-  ],
-  devices: [
-    { name: 'controller', driver: 'dualshock-3', connection: 'dualshock3' }, 
-    { name: 'powerup', driver: 'powerup' }
-  ],
+  connections: {
+    bluetooth: { adaptor: 'ble', uuid: '84dd20eb3d89' },
+    joystick: { adaptor: 'joystick' }
+  },
+
+  devices: {
+    controller: { driver: 'dualshock-3', connection: 'joystick' },
+    powerup: { driver: 'powerup' }
+  },
+
   work: function(my) {
     var thrust = 0;
     var rudder = 0;
