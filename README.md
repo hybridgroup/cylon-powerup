@@ -7,12 +7,16 @@ This repository contains the Cylon driver for the [Powerup 3.0](http://www.power
 For more information about Cylon, check out the repo at
 https://github.com/hybridgroup/cylon
 
-## Getting Started
+## How to Install
 
-Install the module with: `npm install cylon-powerup`
+Install the module with:
 
-## Examples
-Here's an example of flying the powerup with a dualshock3 controller
+    $ npm install cylon-powerup
+
+## How to Use
+
+Here's an example of flying the powerup with a dualshock3 controller:
+
 ```javascript
 var Cylon = require('cylon');
 
@@ -66,6 +70,16 @@ Cylon.robot({
   }
 }).start();
 ```
+
+## How to Connect
+
+The Powerup is a Bluetooth Low-Energy device, and is connected as with any other BLE device. For more info, check out the [BLE platform page](http://cylonjs.com/documentation/platforms/ble).
+
+## Documentation
+
+We're busy adding documentation to our web site at http://cylonjs.com/ please check there as we continue to work on Cylon.js
+
+Thank you!
 
 ## Contributing
 
