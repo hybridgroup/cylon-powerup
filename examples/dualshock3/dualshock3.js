@@ -1,14 +1,16 @@
-var Cylon = require('cylon');
+"use strict";
+
+var Cylon = require("cylon");
 
 Cylon.robot({
   connections: {
-    bluetooth: { adaptor: 'ble', uuid: '84dd20eb3d89' },
-    dualshock3: { adaptor: 'joystick' }
+    bluetooth: { adaptor: "ble", uuid: "84dd20eb3d89" },
+    dualshock3: { adaptor: "joystick" }
   },
 
   devices: {
-    controller: { driver: 'dualshock-3', connection: 'dualshock3' }, 
-    powerup: { driver: 'powerup' }
+    controller: { driver: "dualshock-3", connection: "dualshock3" }, 
+    powerup: { driver: "powerup" }
   },
 
   work: function(my) {
@@ -28,7 +30,7 @@ Cylon.robot({
           my.powerup.setThrust(thrust, cb);
         }
       }
-    }
+    };
 
     my.powerup.setThrust(thrust, cb);
 
