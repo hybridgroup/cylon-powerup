@@ -1,6 +1,6 @@
 {
   "name": "cylon-powerup",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "lib/cylon-powerup.js",
   "description": "Cylon module for the Powerup 3.0",
   "homepage": "http://cylonjs.com",
@@ -24,12 +24,12 @@
   },
 
   "peerDependencies": {
-    "cylon": ">=0.21.0 < 1",
-    "cylon-ble": ">=0.3.0 < 1"
+    "cylon": ">=0.22.0 < 1",
+    "cylon-ble": ">=0.4.0 < 1"
   },
 
   "dependencies": {
-    "cylon": "~0.21.0",
-    "cylon-ble": "~0.3.0"
+    "cylon": "~0.22.0",
+    "cylon-ble": "~0.4.0"
   }
 }
