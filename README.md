@@ -11,7 +11,7 @@ https://github.com/hybridgroup/cylon
 
 Install the module with:
 
-    $ npm install cylon-powerup
+    $ npm install cylon cylon-powerup
 
 ## How to Use
 
