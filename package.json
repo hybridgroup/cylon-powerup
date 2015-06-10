@@ -13,7 +13,22 @@
     "url": "https://github.com/hybridgroup/cylon-powerup"
   },
 
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
+
+  "keywords": [
+    "cylon",
+    "cylonjs",
+    "cylons",
+    "robot",
+    "robots",
+    "robotics",
+    "iot",
+    "hardware",
+    "powerup",
+    "airplane",
+    "bluetooth",
+    "bluetooth LE"
+  ],
 
   "devDependencies": {
     "sinon-chai": "2.5.0",
