@@ -1,9 +1,8 @@
-// jshint expr:true
 "use strict";
 
-var powerup = source("cylon-powerup");
+var powerup = lib("cylon-powerup");
 
-var Driver = source("driver");
+var Driver = lib("driver");
 
 describe("Cylon.Powerup", function() {
   describe("#drivers", function() {
