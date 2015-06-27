@@ -1,6 +1,6 @@
 "use strict";
 
-var powerup = lib("cylon-powerup");
+var powerup = lib("../");
 
 var Driver = lib("driver");
 
