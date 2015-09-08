@@ -1,6 +1,6 @@
 {
   "name": "cylon-powerup",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Cylon module for the Powerup 3.0",
   "homepage": "http://cylonjs.com",
   "bugs": "https://github.com/hybridgroup/cylon-powerup/issues",
@@ -38,7 +38,7 @@
   },
 
   "dependencies": {
-    "cylon": "~1.1.0",
-    "cylon-ble": "~0.6.0"
+    "cylon": "~1.2.0",
+    "cylon-ble": "~0.8.0"
   }
 }
